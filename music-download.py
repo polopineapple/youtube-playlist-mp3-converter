@@ -40,8 +40,8 @@ for url in playlist:
 #this convert them to mp3 and delete the mp4 files 
 for file in os.listdir(folder_path):
   if re.search('mp4', file):
-    mp4_path = os.path.join(folder,file)
-    mp3_path = os.path.join(folder,os.path.splitext(file)[0]+'.mp3')
+    mp4_path = os.path.join(folder_path,file)
+    mp3_path = os.path.join(folder_path,os.path.splitext(file)[0]+'.mp3')
     AudioSegment.from_file(mp4_path).export(mp3_path, format="mp3")
     fix_duration(mp3_path)
     os.remove(mp4_path)
