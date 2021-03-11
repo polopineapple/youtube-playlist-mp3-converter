@@ -2,7 +2,6 @@ from pytube import YouTube
 from pytube import Playlist
 import os 
 import re 
-import moviepy.editor as mp
 import pydub
 from pydub import AudioSegment
 import ffmpy
