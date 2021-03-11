@@ -7,4 +7,4 @@ put this file inside the folder you are downloading the music into
 
 just cd to the folder in terminal and run "python music-download.py"
 
-P.S clear your bin after 
+P.S empty your bin after 
